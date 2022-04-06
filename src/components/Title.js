@@ -1,11 +1,10 @@
 import React from 'react';
 
 class Title extends React.Component {
-  render(headline) {
-    headline = 'planets';
+  render() {
     return (
       <h2>
-        {headline}
+        {this.props.headline}
       </h2>
     );
   }
