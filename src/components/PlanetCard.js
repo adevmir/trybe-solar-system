@@ -2,11 +2,12 @@ import React from 'react';
 
 class Title extends React.Component {
   render() {
+    const altImg = `Planeta ${this.props.planetName}`;
     return (
       <div data-testid="planet-card">
         <p data-testid="planet-name">
           { this.props.planetName }
-          <img src={ this.props.planetImage } alt={`Planeta ${this.props.planetName}`} />
+          <img src={ this.props.planetImage } alt={ altImg } />
         </p>
       </div>
     );
