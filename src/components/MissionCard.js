@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Title extends React.Component {
+class MissionCard extends React.Component {
   render() {
     return (
       <div data-testid="mission-card">
@@ -13,4 +13,4 @@ class Title extends React.Component {
   }
 }
 
-export default Title;
+export default MissionCard;

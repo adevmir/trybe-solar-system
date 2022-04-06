@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Title extends React.Component {
+class PlanetCard extends React.Component {
   render() {
     const altImg = `Planeta ${this.props.planetName}`;
     return (
@@ -14,4 +14,4 @@ class Title extends React.Component {
   }
 }
 
-export default Title;
+export default PlanetCard;
