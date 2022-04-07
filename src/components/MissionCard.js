@@ -2,19 +2,20 @@ import React from 'react';
 
 class MissionCard extends React.Component {
   render() {
+    const tp = this.props;
     return (
       <div data-testid="mission-card">
         <p data-testid="mission-name">
-          { this.props.name }
+          { tp.name }
         </p>
         <p data-testid="mission-year">
-          { this.props.year }
+          { tp.year }
         </p>
         <p data-testid="mission-country">
-          { this.props.country }
+          { tp.country }
         </p>
         <p data-testid="mission-destination">
-          { this.props.destination }
+          { tp.destination }
         </p>
       </div>
     );
